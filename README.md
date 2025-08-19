@@ -131,6 +131,7 @@ MH-FMD Active Buzzer
 The MH-FMD Active Buzzer is used in our self-driving car to provide audible signals for status indication and debugging purposes. Unlike passive buzzers, the active buzzer contains an internal oscillator, allowing it to generate sound simply by supplying power. In our design, it is triggered by the controller to produce beeps that signal events such as successful start-up, obstacle detection, or completion of a parking maneuver. This feature assists in both competition runs and testing phases, giving operators a quick, non-visual method of understanding the robot’s current status.
  
 **(xi) Button: PCB Mounted Circuit Button** 
+
 a PCB mounted circuit button was integrated as a user-interface component to provide manual control and initialization functions. The button allows the team to safely start and stop the autonomous program and reset calibration routines such as sensor alignment before a trial. Its direct placement on the PCB ensures durability, compact wiring, and ease of accessibility, which reduces the likelihood of connection errors during competition.
 
 
