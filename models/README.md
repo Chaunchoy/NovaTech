@@ -1,6 +1,11 @@
-Models
-==== 
-This directory contains all the models used for our vehicle and its insturctions to build the vehicle. Since our robot is made out of LEGO technic pieces, we are going to be 3d printing mounts and adapters for the sensors. Below is a table of our 3D-printed parts and what they are used for.
+# Models
+
+This directory contains all the models used for our vehicle and its insturctions to build the vehicle. Since our robot is made out of LEGO technic pieces, we are going to be 3d printing mounts and adapters for the sensors. 
+* `BOM_NovaTech` The record of all the components, materials and parts used in the construction of the self-driving car.
+* `Building_Instructions_NovaTech` The building instructions for the self driving car.
+* `LLD_MODEL_FEC_2025_vers_2` List of all the components, materials and parts used in Microsoft Excel
+
+Below is a table of our 3D-printed parts and what they are used for:
 
 | File Name | Description | Image | 
 | ----------- | ----------- | ----------- |
