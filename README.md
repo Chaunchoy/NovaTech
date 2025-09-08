@@ -39,11 +39,8 @@ The self-driving car prototype was constructed using the LEGO® Mindstorms® Edu
 
 ### 1.2.1 Self-Driving Car's Tyre
 
-Our self-driving car uses LEGO® 32019 rims and LEGO® 86652 tyres for the rear tyre and the front tyres from LEGO® Spike® Medium Azure Integral Tyres . These tyres give good grip and stability on different surfaces, while the chassis is strong, light, and easy to change if needed. The design also helps keep the car balanced and stable while moving.
-
-The LEGO® Spike® Medium Azure Integral Tyres were selected as the front tyres of the self-driving car. Their medium size provides an optimal contact surface with the competition field, reducing slippage while ensuring smooth steering response. When paired with the DS-E001D micro servo motor for directional control, these tyres enable precise angular adjustments, which are critical for autonomous navigation tasks.
-
-We selected the LEGO® 86652 tyres as the rear tyres due to their excellent grip and compatibility with our wheel and axle setup. These tyres offer reliable traction on various surfaces, which is essential for accurate movement and stability during autonomous navigation. Their size and tread pattern help maintain balance and reduce slipping, especially when the car is turning or adjusting its path.
+The LEGO® TYRE NORMAL WIDE Ø43,2 X 22 44309 and RIM WIDE W.CROSS 30x20 56145 were selected as the front tyres of the self-driving car. Their medium size provides an optimal contact surface with the competition field, reducing slippage while ensuring smooth steering response. When paired with the DS-E001D micro servo motor for directional control, these tyres enable precise angular adjustments, which are critical for autonomous navigation tasks.
+ We selected the LEGO® 44771 tyres and RIM Ø 56 X 34 15038 as the rear tyres due to their excellent grip and compatibility with our wheel and axle setup. These tyres offer reliable traction on various surfaces, which is essential for accurate movement and stability during autonomous navigation. Their size and tread pattern help maintain balance and reduce slipping, especially when the car is turning or adjusting its path.
 
 ### 1.2.2 Gear System of Self Driving Car
 
@@ -72,6 +69,11 @@ Our self-driving car implements an Ackermann steering system, which is designed 
 
 # 2.0 Power Source, Sense and Control Panel Management
 
+The Power Source, Sense, and Control Board Management section outlines the essential subsystems that ensure reliable operation and intelligent performance of the self-driving car. A stable and efficient power source is crucial for supporting motors, sensors, and processing units, while proper management prevents voltage fluctuations that may compromise system performance. The sensing components, including vision and environmental detectors, act as the vehicle’s perception system, enabling it to interpret surroundings and respond accurately to dynamic conditions. Meanwhile, the control board integrates hardware and software coordination, serving as the central hub for decision-making, signal processing, and command execution. 
+
+Together, these three subsystems form the backbone of the autonomous vehicle, ensuring seamless interaction between energy supply, environmental awareness, and computational control.
+
+
 ## 2.1 Power Source
 
 The LJ501855 Battery supplies the necessary energy for all the car’s electronic components and motors. It delivers stable voltage output, ensuring that the sensors, control board, and motor driver function without interruptions. Its capacity allows for extended operation, reducing the need for frequent charging during development and competition. The compact design fits neatly within the LEGO® chassis, keeping the weight balanced for better stability.
@@ -79,14 +81,10 @@ The LJ501855 Battery supplies the necessary energy for all the car’s electroni
 
 ## 2.2 Sensor and Control Panel
 
-**Front view of the robot**
-
-**Back view of the robot**
-
 **(i) Main Controller**
 ESP32-S3-DevKitC-1
 
-The ESP32-S3-DevKitC-1 serves as the primary control unit of our self-driving car. Powered by the ESP32-S3 microcontroller, it features a dual-core Xtensa® 32-bit LX7 processor with integrated Wi-Fi and Bluetooth Low Energy (BLE), allowing for wireless debugging, data transmission, and potential remote control functions. The ESP32-S3 offers high processing power and AI acceleration instructions, making it ideal for handling real-time sensor inputs, executing navigation algorithms, and controlling actuators. In our robot, it processes data from the camera, color sensor, and distance sensors to make immediate driving decisions. Its compact size, multiple GPIO pins, and low power consumption make it a versatile choice for embedded robotics applications.'
+The ESP32-S3-DevKitC-1 serves as the primary control unit of our self-driving car. Powered by the ESP32-S3 microcontroller, it features a dual-core Xtensa® 32-bit LX7 processor with integrated Wi-Fi and Bluetooth Low Energy (BLE), allowing for wireless debugging, data transmission, and potential remote control functions. The ESP32-S3 offers high processing power and AI acceleration instructions, making it ideal for handling real-time sensor inputs, executing navigation algorithms, and controlling actuators. In our robot, it processes data from the camera, color sensor, and distance sensors to make immediate driving decisions. Its compact size, multiple GPIO pins, and low power consumption make it a versatile choice for embedded vehicle applications.'
 
 **(ii) Power Regulator**
 Mini MP1584EN DC-DC Buck Converter
@@ -115,9 +113,6 @@ Pixy2 CMUcam5 Smart Vision Sensor
 
 In our self-driving car, the Pixy2 Camera is used exclusively for object and colour signature recognition, which plays a crucial role in the vehicle's ability to navigate the environment. We trained the Pixy2 to detect specific colour markers placed on objects such as pillars and parking boundaries. These colour signatures act as visual cues that allow the robot to identify obstacles and make appropriate navigation decisions. For example, the car uses the Pixy2 to recognize coloured pillars and determine whether to steer left or right to avoid collisions. Additionally, the camera helps the vehicle detect designated parking zones and execute precise movements when entering or exiting these areas.
 
-The following figures shows a close-up view of the Pixy2 Camera: 
-(JPG)
-
 The Pixy2 is mounted at the top of the chassis with a clear line of vision toward the forward surroundings. It is calibrated using PixyMon v2 software, where we fine-tuned the camera’s brightness, colour threshold, and exposure settings to ensure consistent object detection under different lighting conditions. By offloading the visual processing to the camera's onboard system, we reduce the processing burden on the main controller, allowing for quicker reactions and smoother movements.
 
 **(vii) Orientaion and Motion Sensing**
@@ -130,7 +125,7 @@ MH-FMD Active Buzzer
 
 The MH-FMD Active Buzzer is used in our self-driving car to provide audible signals for status indication and debugging purposes. Unlike passive buzzers, the active buzzer contains an internal oscillator, allowing it to generate sound simply by supplying power. In our design, it is triggered by the controller to produce beeps that signal events such as successful start-up, obstacle detection, or completion of a parking maneuver. This feature assists in both competition runs and testing phases, giving operators a quick, non-visual method of understanding the robot’s current status.
  
-**(xi) Button: PCB Mounted Circuit Button** 
+**(ix) Button: PCB Mounted Circuit Button** 
 
 a PCB mounted circuit button was integrated as a user-interface component to provide manual control and initialization functions. The button allows the team to safely start and stop the autonomous program and reset calibration routines such as sensor alignment before a trial. Its direct placement on the PCB ensures durability, compact wiring, and ease of accessibility, which reduces the likelihood of connection errors during competition.
 
@@ -144,6 +139,19 @@ a PCB mounted circuit button was integrated as a user-interface component to pro
 ## 3.2 Obstacle Challenge
 
 # 4.0 Engineering Factors
+Most of the parts on our robot are designed to be modular and easy to replace. This makes it very convenient for us during testing and competition because if any component breaks or stops working, we don’t need to rebuild the whole system from scratch. Instead, we can simply unplug the damaged part and quickly plug in a new one. This not only saves us time but also makes troubleshooting much less stressful. Using LEGO-based structures and standardized electronic modules also helps keep everything organized and ensures that replacements can be done smoothly without affecting the overall design of the robot.
+
+### 4.1	Ackermann Steering
+We used Ackermann steering for the steering system of our robot. This type of steering mechanism allows the wheels to turn at different angles when making a corner, which makes the movement smoother and more efficient. By using Ackermann steering, our robot can achieve a larger turning angle while reducing friction between the wheels and the ground. This not only improves the accuracy of our turns but also reduces wear on the tyres and helps the vehicle maintain better stability during navigation. It is especially useful in tight spaces on the competition field where precise and controlled turning is important.
+
+### 4.2	Differential Gear
+We also applied a differential gear system to our driving motor. The purpose of using a differential is to allow the left and right wheels to rotate at different speeds, especially when the robot is making a turn. Without a differential, both wheels would be forced to spin at the same speed, which could cause skidding, higher friction, and unstable movement. By having this system in place, our robot is able to turn more smoothly and efficiently while maintaining better balance. This setup improves overall handling and makes the driving motion more natural, similar to how real cars function on the road.
+
+### 4.3	Special angle and placement of the PixyMonV2 Camera
+We tested the PixyMon V2 camera at different angles to find the most suitable placement for our robot. After several trials, we discovered that positioning the camera at a 20° angle provided the best field of view between the robot and the obstacles on the track. With this setup, the Pixy2 Camera is able to detect obstacles from a greater distance and give the robot enough time to respond. As a result, our robot can avoid obstacles more efficiently and move around them in a smoother and more controlled manner.
+
 # 5.0 Improvements and Enhancements
+We have changed our camera from an OpenMV H7 camera to Pixy Mon V2 Camera. This is because PixyMonV2 has a wider lens view compared to the open MV H7 Camera. This can help our robot to scan a wider view and have a better vision when avoiding obstacles. This may prevent our robot from missing the obstacles on the field and go in the wrong direction. This also helps our robot to avoid turning back too soon after passing an obstacle.
+
 # ** Credits** 
 
