@@ -78,7 +78,6 @@ Together, these three subsystems form the backbone of the autonomous vehicle, en
 
 The LJ501855 Battery supplies the necessary energy for all the car’s electronic components and motors. It delivers stable voltage output, ensuring that the sensors, control board, and motor driver function without interruptions. Its capacity allows for extended operation, reducing the need for frequent charging during development and competition. The compact design fits neatly within the LEGO® chassis, keeping the weight balanced for better stability.
 
-
 ## 2.2 Sensor and Control Panel
 
 **(i) Main Controller**
@@ -131,6 +130,9 @@ a PCB mounted circuit button was integrated as a user-interface component to pro
 
 
 ## 2.3 Build of Materials
+List below shows the record of all the components, materials and parts used in the construction of the self-driving car. It serves as a structured inventory that details the specifications, quantities, and sources of each item, ensuring clarity and accuracy in the design process.
+
+
 ## Wiring Diagram
 **(i) Open Challenge**
 **(ii) Obstacle Challenge**
