@@ -132,6 +132,11 @@ a PCB mounted circuit button was integrated as a user-interface component to pro
 ## 2.3 Build of Materials
 List below shows the record of all the components, materials and parts used in the construction of the self-driving car. It serves as a structured inventory that details the specifications, quantities, and sources of each item, ensuring clarity and accuracy in the design process.
 
+<img width="470" height="689" alt="Image" src="https://github.com/user-attachments/assets/460d8bb4-73ce-47d1-bbd2-afd3187cd65f" />
+<img width="470" height="689" alt="Image" src="https://github.com/user-attachments/assets/3fee17a6-239f-40ae-a14b-62ee9bbf9e7a" />
+<img width="470" height="689" alt="Image" src="https://github.com/user-attachments/assets/48d63e07-5e11-409a-9711-80e596f310ba" />
+<img width="470" height="689" alt="Image" src="https://github.com/user-attachments/assets/fc0a2b3a-737c-42b2-bade-8b12cb38e5eb" />
+<img width="470" height="689" alt="Image" src="https://github.com/user-attachments/assets/85f19cf6-c20b-429d-9a60-17248c07fc93" />
 
 ## Wiring Diagram
 **(i) Open Challenge**
