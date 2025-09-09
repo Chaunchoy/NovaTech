@@ -48,10 +48,13 @@ The self-driving car prototype was constructed using the LEGO® Mindstorms® Edu
 The LEGO® TYRE NORMAL WIDE Ø43,2 X 22 44309 and RIM WIDE W.CROSS 30x20 56145 were selected as the front tyres of the self-driving car. Their medium size provides an optimal contact surface with the competition field, reducing slippage while ensuring smooth steering response. When paired with the DS-E001D micro servo motor for directional control, these tyres enable precise angular adjustments, which are critical for autonomous navigation tasks.
  We selected the LEGO® 44771 tyres and RIM Ø 56 X 34 15038 as the rear tyres due to their excellent grip and compatibility with our wheel and axle setup. These tyres offer reliable traction on various surfaces, which is essential for accurate movement and stability during autonomous navigation. Their size and tread pattern help maintain balance and reduce slipping, especially when the car is turning or adjusting its path.
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/22f59c8e-0994-465b-8f58-ac4e499d2df7" />
+
 ### 1.2.2 Gear System of Self Driving Car
 
 Our self-driving car uses a differential gear system to improve its turning performance and overall movement control. The differential allows the left and right wheels to rotate at different speeds when the car is turning, which helps prevent wheel skidding and improves stability. This is especially important during autonomous navigation, where precise movement is required. By evenly distributing torque between the wheels, the differential gear also helps maintain balance and smooth transitions when changing direction. Using LEGO® Technic components, the differential is integrated into the drivetrain in a compact and efficient layout, ensuring both functionality and ease of maintenance.
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/20cc6de7-0ba1-4c0a-98ec-97d99a59d0b9" />
 
 ### 1.2.3 Selection of Motor and Its Engineering Principle
 
@@ -59,9 +62,13 @@ Our self-driving car uses a differential gear system to improve its turning perf
 
 For the main propulsion system, the WHEELTEC MG310P20 7.4V L DC motor with integrated encoder was selected due to its balance of torque, speed, and precise feedback control. The encoder provides real-time rotational data, enabling closed-loop control that is essential for accurate navigation and maintaining consistent velocity during autonomous tasks. 
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/a5ae5be9-0228-4e45-b409-f1a83c3b270a" />
+
 (ii) Steering Motor : DS-E001D Micro Servo Motor 
 
 The DS-E001D micro servo motor is a compact and lightweight actuator used for small, precise movements on our car. It operates at low voltage, making it compatible with thepower source from the LJ501855 battery and the ESP32 control system. This servo is ideal for tasks such as steering mechanisms, sensor alignment, or activating small attachments. Its design allows easy integration with LEGO®-compatible mounting points, enabling flexible positioning on the chassis. With its quick response time and accurate angle control, the DS-E001D enhances the car’s ability to perform controlled, repeatable actions during autonomous navigation.
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/52ecd8c5-3ca7-45e3-8a03-53d54eafd9e0" />
 
 ### 1.2.4 Connection of Motor the Chassis
 
@@ -72,6 +79,8 @@ The use of LEGO® components also allows for non-permanent but rigid connections
 ## 1.3 Steering
 
 Our self-driving car implements an Ackermann steering system, which is designed to mimic the natural turning geometry used in real-world vehicles. This system ensures that the inner and outer front wheels turn at different angles during a curve, allowing for smoother and more accurate cornering. By minimizing tyre slip and mechanical strain, Ackermann steering improves the car’s handling and reduces energy loss during turns. We built the steering mechanism using LEGO Technic components, carefully aligning the pivot points to approximate true Ackermann geometry. This setup is mechanically efficient and integrates well with our differential gear system, resulting in precise directional control and crucial for autonomous path following tasks.
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/2ecc3480-f90d-45dd-b2cf-88664e73e11f" />
 
 # 2.0 Power Source, Sense and Control Panel Management
 
