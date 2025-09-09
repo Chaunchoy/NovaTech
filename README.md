@@ -139,11 +139,26 @@ List below shows the record of all the components, materials and parts used in t
 <img width="470" height="689" alt="Image" src="https://github.com/user-attachments/assets/85f19cf6-c20b-429d-9a60-17248c07fc93" />
 
 ## Wiring Diagram
-**(i) Open Challenge**
-**(ii) Obstacle Challenge**
+The wiring schematic illustrates the electrical connections between the power source, control board, sensors and actuators, providing a clear reference for assembly, troubleshooting, and system maintenance.
+
+The following diagram illustrates the both wiring connections for the Open Challenge and Obstacle Challenge:
+
+![Image](https://github.com/user-attachments/assets/13d69007-0f13-4c8a-b260-f4b65a1331a0)
+
 # 3.0 Obstacle Management
 ## 3.1 Open Challenge
+In the Future Engineers Open Challenge, both time-of-flight (ToF) sensors can be used to detect the distance between inner and outer walls. An exact distance is coded into the program to maintain its distance between the walls and ensure accurate alignment between the walls. These sensors are also used to determine the direction of its path during the round; if the right side of the wall is bigger than the left, it will go clockwise and vice versa. The gyro ensures that the vehicle stays on a straight path.
+
+The following diagram presents the flowchart for the Open Challenge:
+
+<img width="1067" height="2194" alt="Image" src="https://github.com/user-attachments/assets/65d61b2d-adfd-4412-b42b-54570752431f" />
+
 ## 3.2 Obstacle Challenge
+By using a time-of-flight (ToF) sensor, the vehicle can measure the relative distance to surrounding walls or obstacles and then decide whether to navigate clockwise or counterclockwise based on which direction provides a clearer, shorter or safer path. After the vehicle finishes its 3 laps of round, the vehicle is doing its parallel parking. The ToF sensor is used to measure the distance between two parking blocks for the vehicle park inside the area. The Pixy2 camera can be used in the Future Engineers Obstacle Challenge to detect red and green traffic signs, helping the car decide the correct side to pass before completing the parallel parking task. The parking area is also determined by the detection of its colour. To ensure the vehicle moves in the correct orientation and angular velocity, the gyro allows it to maintain a stable heading, detect turns and decide whether to steer clockwise or counterclockwise during obstacle navigation.
+
+The following diagram presents the flowchart for the Obstacle Challenge:
+
+<img width="3034" height="2498" alt="Image" src="https://github.com/user-attachments/assets/8a806c63-5430-4c09-811d-400db80cd3c6" />
 
 # 4.0 Engineering Factors
 Most of the parts on our robot are designed to be modular and easy to replace. This makes it very convenient for us during testing and competition because if any component breaks or stops working, we don’t need to rebuild the whole system from scratch. Instead, we can simply unplug the damaged part and quickly plug in a new one. This not only saves us time but also makes troubleshooting much less stressful. Using LEGO-based structures and standardized electronic modules also helps keep everything organized and ensures that replacements can be done smoothly without affecting the overall design of the robot.
