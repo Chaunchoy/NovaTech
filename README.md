@@ -91,9 +91,17 @@ Together, these three subsystems form the backbone of the autonomous vehicle, en
 
 ## 2.1 Power Source
 
-The LJ501855 Battery supplies the necessary energy for all the car’s electronic components and motors. It delivers stable voltage output, ensuring that the sensors, control board, and motor driver function without interruptions. Its capacity allows for extended operation, reducing the need for frequent charging during development and competition. The compact design fits neatly within the LEGO® chassis, keeping the weight balanced for better stability.
+The LJ501855 Battery provides 7.4 V and 1400 mAh. The battery acts as the energy for all the car’s electronic components and motors. It delivers stable voltage output, ensuring that the sensors, control board, and motor driver function without interruptions. Its capacity allows for extended operation, reducing the need for frequent charging during development and competition. The compact design fits neatly within the LEGO® chassis, keeping the weight balanced for better stability.
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/16dcc6ad-eb38-4a4c-9059-128d13882532" />
 
 ## 2.2 Sensor and Control Panel
+
+| Control Board | Control Board (Closed-Up) |
+| ----------- | ----------- |
+| ![Image](https://github.com/user-attachments/assets/a421cb90-f355-4308-b93c-6a0d18a976ab) | ![Image](https://github.com/user-attachments/assets/dcfa7f53-67e3-44d7-818e-919a234d5cbe) | 
+
+
 
 **(i) Main Controller**
 ESP32-S3-DevKitC-1
