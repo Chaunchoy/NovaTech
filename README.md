@@ -23,7 +23,7 @@ Each member brings a unique set of skills and perspectives to the team—ranging
 To demonstrate the functionality and the capabilities of our self-driving car prototype, we have recorded a performance video showcasing its navigation, obstacle avoidance, and autonomous decision-making in a simulated environment. The video highlights key features such as wall tracking, sensor-based movement, and system stability under various conditions. This visual documentation provides evidence of our vehicle's real-time performance and serves as a practical validation of our design and programming approach.
 The video can be accessed via the following link or by scanning the attached QR code.
 
-(QR CODE)
+<img width="422" height="284" alt="Image" src="https://github.com/user-attachments/assets/f139d541-0b74-4deb-a141-695ac375131c" />
 
 # 1.0 Mobility Management
 
